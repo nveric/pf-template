@@ -5,7 +5,7 @@ import os
 def call_llm(prompt):    
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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",
+        api_key="sk-or-v1-86dcaxxxxx",
     )
     r = client.chat.completions.create(
         model="meta-llama/llama-3.3-8b-instruct:free",
